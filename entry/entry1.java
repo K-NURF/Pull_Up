@@ -125,10 +125,8 @@ public class entry1 extends JFrame implements ActionListener {
 
             try {
                 Random ran = new Random();
-                double limit = 500;
-                Double hght = ran.nextDouble(limit);
-                double lmt = 10000;
-                Double wght = ran.nextDouble(lmt);
+                int hght = 148 + ran.nextInt(400);
+                int wght = 680 + ran.nextDouble(10000);
                 height = String.valueOf(hght);
                 weight = String.valueOf(wght);
 
