@@ -63,6 +63,7 @@ public class exit2 extends exit1 {
             }
             JOptionPane.showMessageDialog(exit2.this, "\t\tTHANK YOU\n\tSAFE JOURNEY\n\t\tCOME AGAIN ");
             exit1 exit1 = new exit1();
+            plateText.setEditable(true);
             exit1.setVisible(true);
             this.setVisible(false);
 

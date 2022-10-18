@@ -130,6 +130,7 @@ public class exit1 extends JFrame implements ActionListener {
 
                 number_plate = plateText.getText();
                 exit2 exit2 = new exit2();
+                plateText.setEditable(false);
                 exit2.setVisible(true);
                 this.setVisible(false);
 
